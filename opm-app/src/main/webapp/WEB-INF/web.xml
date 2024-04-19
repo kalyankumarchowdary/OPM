@@ -3,14 +3,14 @@
 	see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html#d4e194 -->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
     <display-name>OTT Platform Manager</display-name>
-    <servlet>
+   <!-- <servlet>
         <servlet-name>HelloWorldServlet</servlet-name>
         <servlet-class>com.project.opm.Main</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
         <url-pattern>/opm/hello</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
     <!--<listener>
           <listener-class>
               com.project.opm.OPMServletContextListener
