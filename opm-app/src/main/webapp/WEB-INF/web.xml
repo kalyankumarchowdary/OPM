@@ -5,7 +5,7 @@
     <display-name>OTT Platform Manager</display-name>
    <!-- <servlet>
         <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>com.project.opm.Main</servlet-class>
+        <servlet-class>com.project.opm.OPMApplication</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
