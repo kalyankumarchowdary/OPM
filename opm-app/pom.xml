@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.project.opm</groupId>
+    <groupId>com.project.opm</groupId>
     <artifactId>opm-app</artifactId>
     <packaging>war</packaging>
 
@@ -19,6 +19,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <version.servlet>6.0.0</version.servlet>
+        <version.hibernate>6.4.4.Final</version.hibernate>
+        <version.ojdbc>19.22.0.0</version.ojdbc>
     </properties>
 
     <dependencies>
@@ -26,6 +28,21 @@
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>${version.servlet}</version>
+        </dependency>
+
+        <!-- Hibernate Depedencies-->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${version.hibernate}</version>
+            <!--The main Hibernate library (v6.4.4.Final) used for object-relational mapping (ORM), allowing you to interact with your database through Java objects-->
+        </dependency>
+
+        <!-- DB dependencies -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc10</artifactId>
+            <version>${version.ojdbc}</version>
         </dependency>
     </dependencies>
 
